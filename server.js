@@ -1,7 +1,7 @@
-const app = require('./src/app');
+const app = require('./lib/app');
 const http = require('http');
 
-require('./src/connect');
+require('./lib/connect');
 
 const server = http.createServer(app);
 
